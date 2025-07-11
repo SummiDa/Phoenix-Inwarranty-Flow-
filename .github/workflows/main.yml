@@ -3,10 +3,9 @@ name: Postman Workflow Collection
 on : 
  push:
      branches:[main]
-  workflow_dispatch: 
+ workflow_dispatch: 
     Schedule: 
       -cron: 30:02:*:*:* #8:00 am IST (default timezone is UTC) 
-      -cron: 00:14:*:*:* #7:30 pm IST (default timezone is UTC) 
 
 jobs: 
   run-postman-test:
