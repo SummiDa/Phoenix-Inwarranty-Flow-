@@ -16,9 +16,9 @@ steps:
    uses:actions/checkout@v4.2.2
 
  -name:Setup Node
-    uses:actions/setup-node@v3.9.1
-    with: 
-      node-version : '22'
+  uses:actions/setup-node@v3.9.1
+  with: 
+    node-version : '22'
 
  -name: install newman and report 
    run : |
