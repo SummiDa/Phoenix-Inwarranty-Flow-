@@ -54,6 +54,12 @@ steps:
        server_port: 465
        username: ${{secrets.Email_UserName}}
        password: ${{secrets.Email_PWD}}
+       subject: Phoenix inwarranty Flow
+       to: summi.dass13@gmail.com
+       from: ${{secrets.Email_UserName}}
+       body:| 
+         Hi,
+           Report has been published 
 
        }}
 
